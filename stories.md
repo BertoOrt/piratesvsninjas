@@ -1,5 +1,6 @@
-- users can signup
-- users can logout
+- √users can signup
+- √users can logout
+- √users can login
 - users can add a bookmark
 - users can see all their added bookmarks
 - users can edit bookmark

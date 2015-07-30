@@ -1,10 +1,11 @@
 var express = require('express');
 var router = express.Router();
-var db = require('./../models')
-var bcrypt = require('bcryptjs')
+var db = require('./../models');
 
 router.get('/', function(req, res, next) {
-  res.render('index');
+  console.log(res.locals);
+  var username = req.session.username;
+  res.render('index', {username: username});
 });
 
 module.exports = router;

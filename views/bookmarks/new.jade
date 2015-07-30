@@ -1,12 +1,14 @@
-extends layout
+extends ../layout
 
 block content
   main
     .container
-      form(action='/login' method='post')
+      form(action='/new' method='post')
         label(for='name') Name: 
         input(type='text' name='name' id='name')
-        label(for='password') Password: 
-        input(type='submit' value='login')
+        label(for='bookmark') Bookmark: 
+        input(type='url' name='bookmark' id='bookmark')
+        label(for='description') Description: 
+        textarea(name='description' id='description')
+        input(type='submit' value='Bookmark!')
     
-        
