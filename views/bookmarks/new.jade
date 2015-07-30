@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  main
+    .container
+      form(action='/login' method='post')
+        label(for='name') Name: 
+        input(type='text' name='name' id='name')
+        label(for='password') Password: 
+        input(type='submit' value='login')
+    
+        
