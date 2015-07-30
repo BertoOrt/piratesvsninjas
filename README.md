@@ -1,3 +1,3 @@
-# bookmarks
+# user-template
 
-![](./public/images/ERD.png)
+<!-- replace package.json name and bin www name -->
